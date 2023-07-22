@@ -11,6 +11,7 @@ from urllib3.exceptions import InsecureRequestWarning
 
 from .client import GrafanaClient
 from .elements import (
+    Plugin,
     Admin,
     Alerting,
     AlertingProvisioning,
@@ -58,6 +59,7 @@ class GrafanaApi:
             user_agent=user_agent,
         )
         self.url = None
+        self.plugin = Plugin(self.client)
         self.admin = Admin(self.client)
         self.alerting = Alerting(self.client)
         self.alertingprovisioning = AlertingProvisioning(self.client)

@@ -92,10 +92,10 @@ class GrafanaClient:
             }
 
             if self.url_port is None:
-                url_pattern = "{protocol}://{host}/{url_path_prefix}api"
+                url_pattern = "{protocol}://{host}"
             else:
                 params["port"] = self.url_port
-                url_pattern = "{protocol}://{host}:{port}/{url_path_prefix}api"
+                url_pattern = "{protocol}://{host}:{port}"
 
             return url_pattern.format(**params)
 

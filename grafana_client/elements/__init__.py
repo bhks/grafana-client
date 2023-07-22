@@ -15,3 +15,4 @@ from .search import Search
 from .snapshots import Snapshots
 from .team import Teams
 from .user import User, Users
+from .plugin import Plugin
