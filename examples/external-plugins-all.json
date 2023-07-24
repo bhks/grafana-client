@@ -1,0 +1,3972 @@
+[
+    {
+        "name": "AWS Data Sources",
+        "type": "app",
+        "id": "aws-datasource-provisioner-app",
+        "enabled": true,
+        "pinned": true,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com/"
+            },
+            "description": "AWS Datasource Provisioner",
+            "links": [],
+            "logos": {
+                "small": "public/plugins/aws-datasource-provisioner-app/assets/logo-small.svg",
+                "large": "public/plugins/aws-datasource-provisioner-app/assets/logo-large.svg"
+            },
+            "build": {
+                "time": 1684358005873,
+                "repo": "https://github.com/grafana/aws-datasource-provisioner-app",
+                "branch": "main",
+                "hash": "cae4b5ad22e487e9e0f81fca8ed801b36f87c733"
+            },
+            "screenshots": null,
+            "version": "1.8.1",
+            "updated": "2023-05-17"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.3.0",
+            "grafanaVersion": ">=7.3.0",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/aws-datasource-provisioner-app/page/aws-services",
+        "category": "",
+        "state": "",
+        "signature": "valid",
+        "signatureType": "grafana",
+        "signatureOrg": "Grafana Labs"
+    },
+    {
+        "name": "AWS IoT SiteWise",
+        "type": "datasource",
+        "id": "grafana-iot-sitewise-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "A managed service to collect, store, organize and monitor data from industrial equipment",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://aws.amazon.com/iot-sitewise/"
+                },
+                {
+                    "name": "Issue Tracker",
+                    "url": "https://github.com/grafana/iot-sitewise-datasource/issues"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-iot-sitewise-datasource/img/sitewise.svg",
+                "large": "public/plugins/grafana-iot-sitewise-datasource/img/sitewise.svg"
+            },
+            "build": {
+                "time": 1679993513064,
+                "repo": "https://github.com/grafana/iot-sitewise-datasource",
+                "branch": "main",
+                "hash": "d40da24042b135360cea0cb85a75ad50ac6a2ff3"
+            },
+            "screenshots": [],
+            "version": "1.7.0",
+            "updated": "2023-03-28"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.5.0",
+            "grafanaVersion": "8.5.0",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-iot-sitewise-datasource/",
+        "category": "iot",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "AWS IoT TwinMaker App",
+        "type": "app",
+        "id": "grafana-iot-twinmaker-app",
+        "enabled": true,
+        "pinned": true,
+        "info": {
+            "author": {
+                "name": "AWS IoT TwinMaker",
+                "url": "https://aws.amazon.com"
+            },
+            "description": "Create end-user 3D digital twin applications to monitor industrial operations with AWS IoT TwinMaker. AWS IoT TwinMaker is a service that makes it faster and easier for developers to create digital replicas of real-world systems, helping more customers realize the potential of digital twins to optimize operations.",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/grafana-iot-twinmaker-app"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-iot-twinmaker-app/img/AWS-IoT-TwinMaker.png",
+                "large": "public/plugins/grafana-iot-twinmaker-app/img/AWS-IoT-TwinMaker.png"
+            },
+            "build": {
+                "time": 1684967559156,
+                "repo": "https://github.com/grafana/grafana-iot-twinmaker-app",
+                "branch": "main",
+                "hash": "bc9c49f1b66c6146d17667e733b319eae967504b"
+            },
+            "screenshots": [],
+            "version": "1.6.2",
+            "updated": "2023-05-24"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.0",
+            "grafanaVersion": "8.4.0",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-iot-twinmaker-app/",
+        "category": "iot",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Alert list",
+        "type": "panel",
+        "id": "alertlist",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Shows list of alerts and their current status",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/alertlist/img/icn-singlestat-panel.svg",
+                "large": "public/app/plugins/panel/alertlist/img/icn-singlestat-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/alertlist/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Amazon Athena",
+        "type": "datasource",
+        "id": "grafana-athena-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Use Amazon Athena with Grafana",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/athena-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/grafana/athena-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-athena-datasource/img/logo.svg",
+                "large": "public/plugins/grafana-athena-datasource/img/logo.svg"
+            },
+            "build": {
+                "time": 1678474168787,
+                "repo": "https://github.com/grafana/athena-datasource",
+                "branch": "main",
+                "hash": "4ce742d8b59ffd673331240becd31671de08c475"
+            },
+            "screenshots": [],
+            "version": "2.8.0",
+            "updated": "2023-03-10"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-athena-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Amazon Redshift",
+        "type": "datasource",
+        "id": "grafana-redshift-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Use Amazon Redshift in Grafana",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/redshift-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/redshift-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-redshift-datasource/img/logo.svg",
+                "large": "public/plugins/grafana-redshift-datasource/img/logo.svg"
+            },
+            "build": {
+                "time": 1677791522665,
+                "repo": "https://github.com/grafana/redshift-datasource",
+                "branch": "main",
+                "hash": "dbe5e92609e72275fd565e6590e1818063dd8c0f"
+            },
+            "screenshots": [],
+            "version": "1.7.0",
+            "updated": "2023-03-02"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-redshift-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Amazon Timestream",
+        "type": "datasource",
+        "id": "grafana-timestream-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Managed timeseries database from amazon",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/timestream-datasource"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-timestream-datasource/img/timestream.svg",
+                "large": "public/plugins/grafana-timestream-datasource/img/timestream.svg"
+            },
+            "build": {
+                "time": 1683314165331,
+                "repo": "https://github.com/grafana/timestream-datasource",
+                "branch": "main",
+                "hash": "8413a15e423a60f50559adfef14a5dbdc205b3a8"
+            },
+            "screenshots": [],
+            "version": "2.6.1",
+            "updated": "2023-05-05"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-timestream-datasource/",
+        "category": "tsdb",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Annotations list",
+        "type": "panel",
+        "id": "annolist",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "List annotations",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/annolist/img/icn-annolist-panel.svg",
+                "large": "public/app/plugins/panel/annolist/img/icn-annolist-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/annolist/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "AppDynamics",
+        "type": "datasource",
+        "id": "dlopes7-appdynamics-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "AppDynamics datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/dlopes7-appdynamics-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/dlopes7-appdynamics-datasource/img/appdynamics.svg",
+                "large": "public/plugins/dlopes7-appdynamics-datasource/img/appdynamics.svg"
+            },
+            "build": {
+                "time": 1646791268366,
+                "repo": "https://github.com/grafana/appdynamics-grafana-datasource",
+                "branch": "main",
+                "hash": "e81d649e0802868ca3079fe1190e1719291905c5"
+            },
+            "screenshots": [
+                {
+                    "name": "Application Dashboard",
+                    "path": "public/plugins/dlopes7-appdynamics-datasource/img/screenshot-showcase.png"
+                },
+                {
+                    "name": "Applications Dashboard with Templating",
+                    "path": "public/plugins/dlopes7-appdynamics-datasource/img/grafana-multiple-apps.png"
+                },
+                {
+                    "name": "Metric Editor",
+                    "path": "public/plugins/dlopes7-appdynamics-datasource/img/screenshot-metric_editor.png"
+                },
+                {
+                    "name": "Templating",
+                    "path": "public/plugins/dlopes7-appdynamics-datasource/img/grafana-templating.png"
+                }
+            ],
+            "version": "2.5.0",
+            "updated": "2022-03-09"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.5.1",
+            "grafanaVersion": "7.x.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/dlopes7-appdynamics-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Azure Monitor",
+        "type": "datasource",
+        "id": "grafana-azure-monitor-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Data source for Microsoft Azure Monitor & Application Insights",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://grafana.com/docs/grafana/latest/datasources/azuremonitor/"
+                },
+                {
+                    "name": "Apache License",
+                    "url": "https://github.com/grafana/azure-monitor-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/grafana-azure-monitor-datasource/img/logo.jpg",
+                "large": "public/app/plugins/datasource/grafana-azure-monitor-datasource/img/logo.jpg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Azure Contoso Loans",
+                    "path": "public/app/plugins/datasource/grafana-azure-monitor-datasource/img/contoso_loans_grafana_dashboard.png"
+                },
+                {
+                    "name": "Azure Monitor Network",
+                    "path": "public/app/plugins/datasource/grafana-azure-monitor-datasource/img/azure_monitor_network.png"
+                },
+                {
+                    "name": "Azure Monitor CPU",
+                    "path": "public/app/plugins/datasource/grafana-azure-monitor-datasource/img/azure_monitor_cpu.png"
+                }
+            ],
+            "version": "1.0.0",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "5.2.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-azure-monitor-datasource/",
+        "category": "cloud",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Bar chart",
+        "type": "panel",
+        "id": "barchart",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Categorical charts with group support",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/barchart/img/barchart.svg",
+                "large": "public/app/plugins/panel/barchart/img/barchart.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/barchart/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Bar gauge",
+        "type": "panel",
+        "id": "bargauge",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Horizontal and vertical gauges",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/bargauge/img/icon_bar_gauge.svg",
+                "large": "public/app/plugins/panel/bargauge/img/icon_bar_gauge.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/bargauge/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Candlestick",
+        "type": "panel",
+        "id": "candlestick",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/candlestick/img/candlestick.svg",
+                "large": "public/app/plugins/panel/candlestick/img/candlestick.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/candlestick/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Canvas",
+        "type": "panel",
+        "id": "canvas",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Explicit element placement",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/canvas/img/icn-canvas.svg",
+                "large": "public/app/plugins/panel/canvas/img/icn-canvas.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/canvas/",
+        "category": "",
+        "state": "beta",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "ClickHouse",
+        "type": "datasource",
+        "id": "grafana-clickhouse-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": ""
+            },
+            "description": "ClickHouse datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/clickhouse-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/grafana/clickhouse-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-clickhouse-datasource/img/logo.png",
+                "large": "public/plugins/grafana-clickhouse-datasource/img/logo.png"
+            },
+            "build": {
+                "time": 1648160583377,
+                "repo": "https://github.com/grafana/clickhouse-datasource",
+                "branch": "main",
+                "hash": "a54fe14037c92e6d76dfd5d91e494c85d410d3e8"
+            },
+            "screenshots": [],
+            "version": "1.1.2",
+            "updated": "2022-03-24"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-clickhouse-datasource/",
+        "category": "sql",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Clock",
+        "type": "panel",
+        "id": "grafana-clock-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Clock panel for grafana",
+            "links": [
+                {
+                    "name": "Project site",
+                    "url": "https://github.com/grafana/clock-panel"
+                },
+                {
+                    "name": "MIT License",
+                    "url": "https://github.com/grafana/clock-panel/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-clock-panel/img/clock.svg",
+                "large": "public/plugins/grafana-clock-panel/img/clock.svg"
+            },
+            "build": {
+                "time": 1672825174542,
+                "repo": "https://github.com/grafana/clock-panel",
+                "branch": "master",
+                "hash": "5a0962f98d3ff043bad0db32dc804999a669b161"
+            },
+            "screenshots": [
+                {
+                    "name": "Showcase",
+                    "path": "public/plugins/grafana-clock-panel/img/screenshot-showcase.png"
+                },
+                {
+                    "name": "Options",
+                    "path": "public/plugins/grafana-clock-panel/img/screenshot-clock-options.png"
+                }
+            ],
+            "version": "2.1.2",
+            "updated": "2023-01-04"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-clock-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "CloudWatch",
+        "type": "datasource",
+        "id": "cloudwatch",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Data source for Amazon AWS monitoring service",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/cloudwatch/img/amazon-web-services.png",
+                "large": "public/app/plugins/datasource/cloudwatch/img/amazon-web-services.png"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/cloudwatch/",
+        "category": "cloud",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Cloudflare Grafana App",
+        "type": "app",
+        "id": "cloudflare-app",
+        "enabled": false,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Cloudflare",
+                "url": "https://www.cloudflare.com"
+            },
+            "description": "Cloudflare Grafana App allows Cloudflare users to collect and graph their Cloudflare analytics data over time.",
+            "links": [
+                {
+                    "name": "Project site",
+                    "url": "https://github.com/cloudflare/cloudflare-grafana-app"
+                },
+                {
+                    "name": "License & Terms",
+                    "url": "https://github.com/cloudflare/cloudflare-grafana-app/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/cloudflare-app/img/cf_icon.png",
+                "large": "public/plugins/cloudflare-app/img/cf_icon.png"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Dashboard: Zones",
+                    "path": "public/plugins/cloudflare-app/img/cf_dashboard_zones.png"
+                },
+                {
+                    "name": "Dashboard: DNS Firewall",
+                    "path": "public/plugins/cloudflare-app/img/cf_dashboard_dns_firewall.png"
+                }
+            ],
+            "version": "0.2.4",
+            "updated": "2022-03-16"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=3.0.0",
+            "grafanaVersion": "3.x.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/cloudflare-app/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Dashboard list",
+        "type": "panel",
+        "id": "dashlist",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "List of dynamic links to other dashboards",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/dashlist/img/icn-dashlist-panel.svg",
+                "large": "public/app/plugins/panel/dashlist/img/icn-dashlist-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/dashlist/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Databricks",
+        "type": "datasource",
+        "id": "grafana-databricks-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": ""
+            },
+            "description": "Databricks datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-databricks-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-databricks-datasource/img/databricks.svg",
+                "large": "public/plugins/grafana-databricks-datasource/img/databricks.svg"
+            },
+            "build": {
+                "time": 1678213853967,
+                "repo": "https://github.com/grafana/databricks-datasource",
+                "branch": "main",
+                "hash": "70de96a58bdd5de84ac74c735d84c0feee33e539"
+            },
+            "screenshots": [],
+            "version": "0.3.1",
+            "updated": "2023-03-07"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.7",
+            "grafanaVersion": "8.4.7",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-databricks-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Datadog",
+        "type": "datasource",
+        "id": "grafana-datadog-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Datadog datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-datadog-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-datadog-datasource/img/datadog_logo.png",
+                "large": "public/plugins/grafana-datadog-datasource/img/datadog_logo.png"
+            },
+            "build": {
+                "time": 1648165700424,
+                "repo": "https://github.com/grafana/datadog-datasource",
+                "branch": "main",
+                "hash": "4055467c6fae74b7fb0f305a20e56f55192ef97f"
+            },
+            "screenshots": null,
+            "version": "2.3.13",
+            "updated": "2022-03-24"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.3.0",
+            "grafanaVersion": "7.0.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-datadog-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Dynatrace",
+        "type": "datasource",
+        "id": "grafana-dynatrace-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Dynatrace datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-dynatrace-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-dynatrace-datasource/img/dynatrace.png",
+                "large": "public/plugins/grafana-dynatrace-datasource/img/dynatrace.png"
+            },
+            "build": {
+                "time": 1657296432805,
+                "repo": "https://github.com/grafana/dynatrace-datasource",
+                "branch": "main",
+                "hash": "63f878b9121cda7f3715b338b8a7e2297c959e30"
+            },
+            "screenshots": [],
+            "version": "3.4.3",
+            "updated": "2022-07-08"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.5.1",
+            "grafanaVersion": "8.0.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-dynatrace-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Elasticsearch",
+        "type": "datasource",
+        "id": "elasticsearch",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Open source logging & analytics database",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://grafana.com/docs/features/datasources/elasticsearch/"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/elasticsearch/img/elasticsearch.svg",
+                "large": "public/app/plugins/datasource/elasticsearch/img/elasticsearch.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/elasticsearch/",
+        "category": "logging",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Flame Graph",
+        "type": "panel",
+        "id": "flamegraph",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/flamegraph/img/icn-flamegraph.svg",
+                "large": "public/app/plugins/panel/flamegraph/img/icn-flamegraph.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/flamegraph/",
+        "category": "",
+        "state": "beta",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Gantt",
+        "type": "panel",
+        "id": "marcusolsson-gantt-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Marcus Olsson",
+                "url": ""
+            },
+            "description": "Tasks and processes over time",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/marcusolsson/grafana-gantt-panel"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/marcusolsson/grafana-gantt-panel/blob/main/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/marcusolsson-gantt-panel/img/logo.svg",
+                "large": "public/plugins/marcusolsson-gantt-panel/img/logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Gantt (Dark)",
+                    "path": "public/plugins/marcusolsson-gantt-panel/img/dark.png"
+                },
+                {
+                    "name": "Gantt (Light)",
+                    "path": "public/plugins/marcusolsson-gantt-panel/img/light.png"
+                }
+            ],
+            "version": "0.8.1",
+            "updated": "2022-07-04"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.1.0",
+            "grafanaVersion": "8.1.0",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/marcusolsson-gantt-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Gauge",
+        "type": "panel",
+        "id": "gauge",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Standard gauge visualization",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/gauge/img/icon_gauge.svg",
+                "large": "public/app/plugins/panel/gauge/img/icon_gauge.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/gauge/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Geomap",
+        "type": "panel",
+        "id": "geomap",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Geomap panel",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/geomap/img/icn-geomap.svg",
+                "large": "public/app/plugins/panel/geomap/img/icn-geomap.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/geomap/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Getting Started",
+        "type": "panel",
+        "id": "gettingstarted",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/gettingstarted/img/icn-dashlist-panel.svg",
+                "large": "public/app/plugins/panel/gettingstarted/img/icn-dashlist-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/gettingstarted/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "GitHub",
+        "type": "datasource",
+        "id": "grafana-github-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Show data about github issues/pull requests",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/github-datasource"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-github-datasource/img/github.svg",
+                "large": "public/plugins/grafana-github-datasource/img/github.svg"
+            },
+            "build": {
+                "time": 1675694987426,
+                "repo": "https://github.com/grafana/github-datasource",
+                "branch": "main",
+                "hash": "98a1eb22013a0fe8cc1573910cf14e485153c05e"
+            },
+            "screenshots": [],
+            "version": "1.4.0",
+            "updated": "2023-02-06"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.7",
+            "grafanaVersion": "8.4.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-github-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "GitLab",
+        "type": "datasource",
+        "id": "grafana-gitlab-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "GitLab datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-gitlab-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-gitlab-datasource/img/logo.svg",
+                "large": "public/plugins/grafana-gitlab-datasource/img/logo.svg"
+            },
+            "build": {
+                "time": 1641833525868,
+                "repo": "https://github.com/grafana/gitlab-datasource",
+                "branch": "main",
+                "hash": "cf103df0f895404c5cb0e673c29979fdfb7b3fb7"
+            },
+            "screenshots": [],
+            "version": "0.1.5",
+            "updated": "2022-01-10"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.1.0",
+            "grafanaVersion": "7.x.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-gitlab-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Google BigQuery",
+        "type": "datasource",
+        "id": "grafana-bigquery-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Google BigQuery datasource for Grafana",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/google-bigquery-datasource/"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-bigquery-datasource/img/logo.png",
+                "large": "public/plugins/grafana-bigquery-datasource/img/logo.png"
+            },
+            "build": {
+                "time": 1670226505914,
+                "repo": "https://github.com/grafana/google-bigquery-datasource",
+                "branch": "main",
+                "hash": "4fe6bd00818172ae2a5f3c18e59c37c7dd0e3b93"
+            },
+            "screenshots": null,
+            "version": "1.2.3",
+            "updated": "2022-12-05"
+        },
+        "dependencies": {
+            "grafanaDependency": "8.x || 9.x",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-bigquery-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Google Cloud Monitoring",
+        "type": "datasource",
+        "id": "stackdriver",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Data source for Google's monitoring service (formerly named Stackdriver)",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/cloud-monitoring/img/cloud_monitoring_logo.svg",
+                "large": "public/app/plugins/datasource/cloud-monitoring/img/cloud_monitoring_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "1.0.0",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/stackdriver/",
+        "category": "cloud",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Google Sheets",
+        "type": "datasource",
+        "id": "grafana-googlesheets-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Show data from google sheets",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/google-sheets-datasource"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-googlesheets-datasource/img/sheets.svg",
+                "large": "public/plugins/grafana-googlesheets-datasource/img/sheets.svg"
+            },
+            "build": {
+                "time": 1669735483833,
+                "repo": "https://github.com/grafana/google-sheets-datasource",
+                "branch": "main",
+                "hash": "a690e23c41a1db204175e466aa6b0e918444ffa0"
+            },
+            "screenshots": [
+                {
+                    "name": "Average temperature dashboard example",
+                    "path": "public/plugins/grafana-googlesheets-datasource/img/dashboard.png"
+                },
+                {
+                    "name": "Average temperature spreadsheet example",
+                    "path": "public/plugins/grafana-googlesheets-datasource/img/spreadsheet.png"
+                },
+                {
+                    "name": "Average temperature table example",
+                    "path": "public/plugins/grafana-googlesheets-datasource/img/table.png"
+                },
+                {
+                    "name": "Average temperature graph example",
+                    "path": "public/plugins/grafana-googlesheets-datasource/img/graph.png"
+                },
+                {
+                    "name": "Query editor",
+                    "path": "public/plugins/grafana-googlesheets-datasource/img/query-editor.png"
+                },
+                {
+                    "name": "Config page - Google JWT File auth",
+                    "path": "public/plugins/grafana-googlesheets-datasource/img/config-page.png"
+                }
+            ],
+            "version": "1.1.6",
+            "updated": "2022-11-29"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.1.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-googlesheets-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Graph (old)",
+        "type": "panel",
+        "id": "graph",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "The old default graph panel",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/graph/img/icn-graph-panel.svg",
+                "large": "public/app/plugins/panel/graph/img/icn-graph-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/graph/",
+        "category": "",
+        "state": "deprecated",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Graphite",
+        "type": "datasource",
+        "id": "graphite",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Open source time series database",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://graphiteapp.org/"
+                },
+                {
+                    "name": "Graphite 1.1 Release",
+                    "url": "https://grafana.com/blog/2018/01/11/graphite-1.1-teaching-an-old-dog-new-tricks/"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/graphite/img/graphite_logo.png",
+                "large": "public/app/plugins/datasource/graphite/img/graphite_logo.png"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/graphite/",
+        "category": "tsdb",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Heatmap",
+        "type": "panel",
+        "id": "heatmap",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Like a histogram over time",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/heatmap/img/icn-heatmap-panel.svg",
+                "large": "public/app/plugins/panel/heatmap/img/icn-heatmap-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/heatmap/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Histogram",
+        "type": "panel",
+        "id": "histogram",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/histogram/img/histogram.svg",
+                "large": "public/app/plugins/panel/histogram/img/histogram.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/histogram/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Honeycomb",
+        "type": "datasource",
+        "id": "grafana-honeycomb-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Honeycomb datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-honeycomb-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-honeycomb-datasource/img/honeycomb.png",
+                "large": "public/plugins/grafana-honeycomb-datasource/img/honeycomb.png"
+            },
+            "build": {
+                "time": 1670933534766,
+                "repo": "https://github.com/grafana/honeycomb-datasource",
+                "branch": "main",
+                "hash": "8df4b773e3b236a50a300c6a75409c78d50122e6"
+            },
+            "screenshots": [],
+            "version": "1.1.2",
+            "updated": "2022-12-13"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.7",
+            "grafanaVersion": "8.4.7",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-honeycomb-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Hourly heatmap",
+        "type": "panel",
+        "id": "marcusolsson-hourly-heatmap-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Marcus Olsson",
+                "url": "https://github.com/marcusolsson"
+            },
+            "description": "Heatmap for the hours of the day",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/marcusolsson/grafana-hourly-heatmap-panel"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/marcusolsson/grafana-hourly-heatmap-panel/blob/main/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/marcusolsson-hourly-heatmap-panel/img/logo.svg",
+                "large": "public/plugins/marcusolsson-hourly-heatmap-panel/img/logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Hourly heatmap (Dark)",
+                    "path": "public/plugins/marcusolsson-hourly-heatmap-panel/img/dark.png"
+                },
+                {
+                    "name": "Hourly heatmap (Light)",
+                    "path": "public/plugins/marcusolsson-hourly-heatmap-panel/img/light.png"
+                }
+            ],
+            "version": "2.0.1",
+            "updated": "2022-07-04"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "8.0.0",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/marcusolsson-hourly-heatmap-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "InfluxDB",
+        "type": "datasource",
+        "id": "influxdb",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Open source time series database",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/influxdb/img/influxdb_logo.svg",
+                "large": "public/app/plugins/datasource/influxdb/img/influxdb_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/influxdb/",
+        "category": "tsdb",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "JSON",
+        "type": "datasource",
+        "id": "simpod-json-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "\u0160imon Podlipsk\u00fd",
+                "url": ""
+            },
+            "description": "Load JSON data over your arbitrary HTTP backend",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/simPod/grafana-json-datasource"
+                },
+                {
+                    "name": "MIT License",
+                    "url": "https://github.com/simPod/grafana-json-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/simpod-json-datasource/img/json-logo.svg",
+                "large": "public/plugins/simpod-json-datasource/img/json-logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Query",
+                    "path": "public/plugins/simpod-json-datasource/img/query.png"
+                },
+                {
+                    "name": "Annotation",
+                    "path": "public/plugins/simpod-json-datasource/img/annotation.png"
+                },
+                {
+                    "name": "Variable",
+                    "path": "public/plugins/simpod-json-datasource/img/variable.png"
+                }
+            ],
+            "version": "0.5.0",
+            "updated": "2022-06-23"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=9.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/simpod-json-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Jaeger",
+        "type": "datasource",
+        "id": "jaeger",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Open source, end-to-end distributed tracing",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://www.jaegertracing.io"
+                },
+                {
+                    "name": "GitHub Project",
+                    "url": "https://github.com/jaegertracing/jaeger"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/jaeger/img/jaeger_logo.svg",
+                "large": "public/app/plugins/datasource/jaeger/img/jaeger_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/jaeger/",
+        "category": "tracing",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Jira",
+        "type": "datasource",
+        "id": "grafana-jira-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Jira datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-jira-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-jira-datasource/img/jira_logo.png",
+                "large": "public/plugins/grafana-jira-datasource/img/jira_logo.png"
+            },
+            "build": {
+                "time": 1675339494744,
+                "repo": "https://github.com/grafana/jira-datasource",
+                "branch": "main",
+                "hash": "6e8d8b7c95153a26b456b06588b054cd9491da0b"
+            },
+            "screenshots": [],
+            "version": "1.1.0",
+            "updated": "2023-02-02"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.7",
+            "grafanaVersion": "8.4.7",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-jira-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Logs",
+        "type": "panel",
+        "id": "logs",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/logs/img/icn-logs-panel.svg",
+                "large": "public/app/plugins/panel/logs/img/icn-logs-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/logs/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Loki",
+        "type": "datasource",
+        "id": "loki",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Like Prometheus but for logs. OSS logging solution from Grafana Labs",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://grafana.com/loki"
+                },
+                {
+                    "name": "GitHub Project",
+                    "url": "https://github.com/grafana/loki"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/loki/img/loki_icon.svg",
+                "large": "public/app/plugins/datasource/loki/img/loki_icon.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/loki/",
+        "category": "logging",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Microsoft SQL Server",
+        "type": "datasource",
+        "id": "mssql",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Data source for Microsoft SQL Server compatible databases",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/mssql/img/sql_server_logo.svg",
+                "large": "public/app/plugins/datasource/mssql/img/sql_server_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/mssql/",
+        "category": "sql",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "MongoDB",
+        "type": "datasource",
+        "id": "grafana-mongodb-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "MongoDB datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-mongodb-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-mongodb-datasource/img/mongodb-icon.svg",
+                "large": "public/plugins/grafana-mongodb-datasource/img/mongodb-ar21.svg"
+            },
+            "build": {
+                "time": 1648744408527,
+                "repo": "https://github.com/grafana/mongodb-datasource",
+                "branch": "main",
+                "hash": "b97dbaa2276221f0a7831eb95d8318ca1704df4f"
+            },
+            "screenshots": null,
+            "version": "1.3.0",
+            "updated": "2022-03-31"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.4.1",
+            "grafanaVersion": "7.x.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-mongodb-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Moogsoft AIOps",
+        "type": "app",
+        "id": "moogsoft-aiops-app",
+        "enabled": false,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Moogsoft",
+                "url": "https://moogsoft.com"
+            },
+            "description": "Moogsoft AIOps App",
+            "links": [
+                {
+                    "name": "Moogsoft",
+                    "url": "https://moogsoft.com"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/moogsoft-aiops-app/img/moogsoft-symbol.svg",
+                "large": "public/plugins/moogsoft-aiops-app/img/moogsoft-symbol.svg"
+            },
+            "build": {},
+            "screenshots": [],
+            "version": "8.0.2",
+            "updated": "2022-01-31"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=5.2.4",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/moogsoft-aiops-app/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Multistat",
+        "type": "panel",
+        "id": "michaeldmoore-multistat-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Michael Moore<mdmoore@gmail.com>",
+                "url": "https://github.com/michaeldmoore"
+            },
+            "description": "Enhanced version of built-in SingleStat panel, for queries involving multi-valued recordsets",
+            "links": [
+                {
+                    "name": "Project site",
+                    "url": "https://github.com/michaeldmoore/michaeldmoore-multistat-panel"
+                },
+                {
+                    "name": "MIT License",
+                    "url": "https://github.com/michaeldmoore/michaeldmoore-multistat-panel/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/michaeldmoore-multistat-panel/img/michaeldmoore-multistat-panel.svg",
+                "large": "public/plugins/michaeldmoore-multistat-panel/img/michaeldmoore-multistat-panel.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Showcase",
+                    "path": "public/plugins/michaeldmoore-multistat-panel/img/Showcase.gif"
+                }
+            ],
+            "version": "1.7.2",
+            "updated": "2021-04-21"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.3.0",
+            "grafanaVersion": "7.3.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/michaeldmoore-multistat-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "MySQL",
+        "type": "datasource",
+        "id": "mysql",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Data source for MySQL databases",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/mysql/img/mysql_logo.svg",
+                "large": "public/app/plugins/datasource/mysql/img/mysql_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/mysql/",
+        "category": "sql",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "New Relic",
+        "type": "datasource",
+        "id": "grafana-newrelic-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "NewRelic datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-newrelic-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-newrelic-datasource/img/newrelic-logo-square-w.svg",
+                "large": "public/plugins/grafana-newrelic-datasource/img/newrelic-logo-square-w.svg"
+            },
+            "build": {
+                "time": 1648166236919,
+                "repo": "https://github.com/grafana/newrelic-datasource",
+                "branch": "main",
+                "hash": "e2bb40989f316681e8c352d0d0568816f129b8c9"
+            },
+            "screenshots": null,
+            "version": "2.2.7",
+            "updated": "2022-03-24"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.5.1",
+            "grafanaVersion": "7.2.0",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-newrelic-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "News",
+        "type": "panel",
+        "id": "news",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "RSS feed reader",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/news/img/news.svg",
+                "large": "public/app/plugins/panel/news/img/news.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/news/",
+        "category": "",
+        "state": "beta",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Node Graph",
+        "type": "panel",
+        "id": "nodeGraph",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/nodeGraph/img/icn-node-graph.svg",
+                "large": "public/app/plugins/panel/nodeGraph/img/icn-node-graph.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/nodeGraph/",
+        "category": "",
+        "state": "beta",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "OpenSearch",
+        "type": "datasource",
+        "id": "grafana-opensearch-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": [],
+            "logos": {
+                "small": "public/plugins/grafana-opensearch-datasource/img/logo.svg",
+                "large": "public/plugins/grafana-opensearch-datasource/img/logo.svg"
+            },
+            "build": {
+                "time": 1685116844684,
+                "repo": "https://github.com/grafana/opensearch-datasource",
+                "branch": "main",
+                "hash": "4a4b5e7f902f84a80f2d39f9bb05a250736efe4d"
+            },
+            "screenshots": [],
+            "version": "2.6.1",
+            "updated": "2023-05-26"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=9.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-opensearch-datasource/",
+        "category": "logging",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "OpenTSDB",
+        "type": "datasource",
+        "id": "opentsdb",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Open source time series database",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/opentsdb/img/opentsdb_logo.png",
+                "large": "public/app/plugins/datasource/opentsdb/img/opentsdb_logo.png"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/opentsdb/",
+        "category": "tsdb",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Oracle Database",
+        "type": "datasource",
+        "id": "grafana-oracle-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Oracle datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-oracle-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-oracle-datasource/img/oracle_logo.gif",
+                "large": "public/plugins/grafana-oracle-datasource/img/oracle_logo.gif"
+            },
+            "build": {
+                "time": 1646647038495,
+                "repo": "https://github.com/grafana/oracle-datasource",
+                "branch": "main",
+                "hash": "0e8bc0fc90498b991bd1caaba025cc36e7a28709"
+            },
+            "screenshots": [
+                {
+                    "name": "Setup",
+                    "path": "public/plugins/grafana-oracle-datasource/screenshots/oracle-datasource-setup.png"
+                },
+                {
+                    "name": "List",
+                    "path": "public/plugins/grafana-oracle-datasource/screenshots/oracle-datasource-list.png"
+                },
+                {
+                    "name": "Dashboard",
+                    "path": "public/plugins/grafana-oracle-datasource/screenshots/oracle-types-dashboard-full.png"
+                },
+                {
+                    "name": "Graph",
+                    "path": "public/plugins/grafana-oracle-datasource/screenshots/oracle-types-graph-panel-types-1.png"
+                },
+                {
+                    "name": "Table",
+                    "path": "public/plugins/grafana-oracle-datasource/screenshots/oracle-types-table-panel-types-1.png"
+                }
+            ],
+            "version": "2.0.9",
+            "updated": "2022-03-07"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.1.0",
+            "grafanaVersion": "7.1.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-oracle-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Pie chart",
+        "type": "panel",
+        "id": "piechart",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "The new core pie chart visualization",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/piechart/img/icon_piechart.svg",
+                "large": "public/app/plugins/panel/piechart/img/icon_piechart.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/piechart/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Pixie Grafana Datasource Plugin",
+        "type": "datasource",
+        "id": "pixie-pixie-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "The Pixie Authors",
+                "url": "https://px.dev/"
+            },
+            "description": "Pixie's Grafana Datasource Plugin",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/pixie-io/pixie"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/pixie-io/pixie/blob/main/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/pixie-pixie-datasource/img/logo.svg",
+                "large": "public/plugins/pixie-pixie-datasource/img/logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Cluster Overview",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/px-cluster-grafana.png"
+                },
+                {
+                    "name": "HTTP Service Map",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/http-service-map-script.png"
+                },
+                {
+                    "name": "HTTP Requests",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/http-events.png"
+                },
+                {
+                    "name": "HTTP Errors Bar Chart Service",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/http-errors.png"
+                },
+                {
+                    "name": "HTTP Errors per Service",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/http-error-rate-script.png"
+                },
+                {
+                    "name": "HTTP Throughput per Service",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/service-throughput.png"
+                },
+                {
+                    "name": "Total Request Throughput",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/http-request-throughput-script.png"
+                },
+                {
+                    "name": "Network Connections",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/network-connections-script.png"
+                },
+                {
+                    "name": "Inbound Connections to Cluster",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/inbound-connections-script.png"
+                },
+                {
+                    "name": "Outbound Connections to Cluster",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/outbound-connections-script.png"
+                },
+                {
+                    "name": "Pod Metrics",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/pod-metrics-script.png"
+                },
+                {
+                    "name": "Node Metrics",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/node-metrics-script.png"
+                },
+                {
+                    "name": "Service Metrics",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/service-metrics-script.png"
+                },
+                {
+                    "name": "Namespace Metrics",
+                    "path": "public/plugins/pixie-pixie-datasource/img/screenshots/namespace-metrics-script.png"
+                }
+            ],
+            "version": "0.0.9",
+            "updated": "2022-08-26"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.3.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/pixie-pixie-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Plotly panel",
+        "type": "panel",
+        "id": "ae3e-plotly-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "AE3E",
+                "url": ""
+            },
+            "description": "Render chart from any datasource with Plotly javascript library",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/ae3e/ae3e-plotly-panel"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/ae3e-plotly-panel/img/plotly.svg",
+                "large": "public/plugins/ae3e-plotly-panel/img/plotly.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Editor",
+                    "path": "public/plugins/ae3e-plotly-panel/img/editor.png"
+                },
+                {
+                    "name": "Panel",
+                    "path": "public/plugins/ae3e-plotly-panel/img/panel.png"
+                }
+            ],
+            "version": "0.5.0",
+            "updated": "2021-08-09"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.5.5",
+            "grafanaVersion": "7.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/ae3e-plotly-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "PostgreSQL",
+        "type": "datasource",
+        "id": "postgres",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Data source for PostgreSQL and compatible databases",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/postgres/img/postgresql_logo.svg",
+                "large": "public/app/plugins/datasource/postgres/img/postgresql_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/postgres/",
+        "category": "sql",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Prometheus",
+        "type": "datasource",
+        "id": "prometheus",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Open source time series database & alerting",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://prometheus.io/"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/prometheus/img/prometheus_logo.svg",
+                "large": "public/app/plugins/datasource/prometheus/img/prometheus_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/prometheus/",
+        "category": "tsdb",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Redis",
+        "type": "datasource",
+        "id": "redis-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "RedisGrafana",
+                "url": "https://redisgrafana.github.io"
+            },
+            "description": "Allows to connect to any Redis database On-Premises and in the Cloud.",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://redisgrafana.github.io"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/RedisGrafana/grafana-redis-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/redis-datasource/img/logo.svg",
+                "large": "public/plugins/redis-datasource/img/logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Dashboard",
+                    "path": "public/plugins/redis-datasource/img/redis-dashboard.png"
+                },
+                {
+                    "name": "Streaming Dashboard",
+                    "path": "public/plugins/redis-datasource/img/redis-streaming.png"
+                },
+                {
+                    "name": "Datasource",
+                    "path": "public/plugins/redis-datasource/img/datasource.png"
+                },
+                {
+                    "name": "Query",
+                    "path": "public/plugins/redis-datasource/img/query.png"
+                },
+                {
+                    "name": "Variables",
+                    "path": "public/plugins/redis-datasource/img/variables.png"
+                }
+            ],
+            "version": "2.1.1",
+            "updated": "2022-01-19"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "8.x.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/redis-datasource/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "SAP HANA\u00ae",
+        "type": "datasource",
+        "id": "grafana-saphana-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "The Grafana\u00ae data source plugin for SAP HANA\u00ae. SAP HANA\u00ae is the trademark or registered trademark of SAP SE or its affiliates in Germany and in several other countries.",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://grafana.com/grafana/plugins/grafana-saphana-datasource"
+                },
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-saphana-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-saphana-datasource/img/sap.png",
+                "large": "public/plugins/grafana-saphana-datasource/img/sap.png"
+            },
+            "build": {
+                "time": 1641589957942,
+                "repo": "https://github.com/grafana/saphana-datasource",
+                "branch": "main",
+                "hash": "75c4cde50795cf92391a4d65c9accd3468cd946a"
+            },
+            "screenshots": [],
+            "version": "1.0.3",
+            "updated": "2022-01-07"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.2.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-saphana-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Salesforce",
+        "type": "datasource",
+        "id": "grafana-salesforce-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Salesforce datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-salesforce-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-salesforce-datasource/img/logo.svg",
+                "large": "public/plugins/grafana-salesforce-datasource/img/logo.svg"
+            },
+            "build": {
+                "time": 1677583902290,
+                "repo": "https://github.com/grafana/salesforce-datasource",
+                "branch": "main",
+                "hash": "01ab286e3008791942b04837c2c63657760b1a96"
+            },
+            "screenshots": [],
+            "version": "1.0.7",
+            "updated": "2023-02-28"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.7",
+            "grafanaVersion": "8.4.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-salesforce-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Sankey Panel",
+        "type": "panel",
+        "id": "netsage-sankey-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "NetSage",
+                "url": "http://github.com/netsage-project"
+            },
+            "description": "Sankey Panel Plugin for Grafana",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/netsage-project/netsage-sankey-panel"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/netsage-project/netsage-sankey-panel/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/netsage-sankey-panel/img/logo.svg",
+                "large": "public/plugins/netsage-sankey-panel/img/logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "sankey2",
+                    "path": "public/plugins/netsage-sankey-panel/img/sankey2.png"
+                },
+                {
+                    "name": "sankey3",
+                    "path": "public/plugins/netsage-sankey-panel/img/sankey3.png"
+                }
+            ],
+            "version": "1.0.6",
+            "updated": "2021-12-03"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/netsage-sankey-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Scatter",
+        "type": "panel",
+        "id": "michaeldmoore-scatter-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Michael Moore",
+                "url": "https://github.com/michaeldmoore/michaeldmoore-scatter-panel"
+            },
+            "description": "A really easy-to-use scatter-plot plugin panel for table formatted Grafana data",
+            "links": [
+                {
+                    "name": "Project Site",
+                    "url": "https://github.com/michaeldmoore/michaeldmoore-scatter-panel"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/michaeldmoore/michaeldmoore-scatter-panel/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/michaeldmoore-scatter-panel/img/logo.svg",
+                "large": "public/plugins/michaeldmoore-scatter-panel/img/logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Scatter",
+                    "path": "public/plugins/michaeldmoore-scatter-panel/img/screenshot.png"
+                }
+            ],
+            "version": "1.2.0",
+            "updated": "2022-11-23"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.3.0",
+            "grafanaVersion": "8.3.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/michaeldmoore-scatter-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "ServiceNow",
+        "type": "datasource",
+        "id": "grafana-servicenow-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "ServiceNow datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-servicenow-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-servicenow-datasource/img/ServiceNow.svg",
+                "large": "public/plugins/grafana-servicenow-datasource/img/servicenow-header-logo.svg"
+            },
+            "build": {
+                "time": 1653075463913,
+                "repo": "https://github.com/grafana/servicenow-datasource",
+                "branch": "main",
+                "hash": "cf0d1ef53bc2f43d4368807651d247e46bc58782"
+            },
+            "screenshots": [],
+            "version": "2.3.2",
+            "updated": "2022-05-20"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.4.0",
+            "grafanaVersion": "7.0.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-servicenow-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Snowflake",
+        "type": "datasource",
+        "id": "grafana-snowflake-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Snowflake datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-snowflake-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-snowflake-datasource/img/snowflake.svg",
+                "large": "public/plugins/grafana-snowflake-datasource/img/snowflake.svg"
+            },
+            "build": {
+                "time": 1664427815844,
+                "repo": "https://github.com/grafana/snowflake-datasource",
+                "branch": "main",
+                "hash": "8aaa203a85c85132d033db2e7c2c924e59e4c690"
+            },
+            "screenshots": [
+                {
+                    "name": "Example Dashboard",
+                    "path": "public/plugins/grafana-snowflake-datasource/screenshots/snowflake-sample-dashboard1.png"
+                },
+                {
+                    "name": "Query Editor",
+                    "path": "public/plugins/grafana-snowflake-datasource/screenshots/snowflake-query-editor.png"
+                },
+                {
+                    "name": "Datasource Configuration",
+                    "path": "public/plugins/grafana-snowflake-datasource/screenshots/snowflake-datasource-config.png"
+                }
+            ],
+            "version": "1.3.0",
+            "updated": "2022-09-29"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.2.0",
+            "grafanaVersion": "7.2.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-snowflake-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Splunk",
+        "type": "datasource",
+        "id": "grafana-splunk-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Splunk datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-splunk-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-splunk-datasource/img/splunk_logo_128.png",
+                "large": "public/plugins/grafana-splunk-datasource/img/splunk_logo_128.png"
+            },
+            "build": {
+                "time": 1650479298994,
+                "repo": "https://github.com/grafana/splunk-datasource",
+                "branch": "main",
+                "hash": "64cd729c357c0b5de4fb5b2b74acaafab4951785"
+            },
+            "screenshots": null,
+            "version": "3.0.2",
+            "updated": "2022-04-20"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.2.0",
+            "grafanaVersion": "8.2.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-splunk-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Splunk Infrastructure Monitoring",
+        "type": "datasource",
+        "id": "grafana-splunk-monitoring-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Splunk Infrastructure Monitoring (formerly SignalFx) datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-splunk-monitoring-datasource/img/signalfx-icon.svg",
+                "large": "public/plugins/grafana-splunk-monitoring-datasource/img/signalfx-logo.svg"
+            },
+            "build": {
+                "time": 1667759921199,
+                "repo": "https://github.com/grafana/signalfx-datasource",
+                "branch": "main",
+                "hash": "269056bf1b05a20241a5d6abd446dad541f08384"
+            },
+            "screenshots": [],
+            "version": "1.0.7",
+            "updated": "2022-11-06"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.4.7",
+            "grafanaVersion": "8.4.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-splunk-monitoring-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Stat",
+        "type": "panel",
+        "id": "stat",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Big stat values & sparklines",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/stat/img/icn-singlestat-panel.svg",
+                "large": "public/app/plugins/panel/stat/img/icn-singlestat-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/stat/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "State timeline",
+        "type": "panel",
+        "id": "state-timeline",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "State changes and durations",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/state-timeline/img/timeline.svg",
+                "large": "public/app/plugins/panel/state-timeline/img/timeline.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/state-timeline/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Status history",
+        "type": "panel",
+        "id": "status-history",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Periodic status history",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/status-history/img/status.svg",
+                "large": "public/app/plugins/panel/status-history/img/status.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/status-history/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Table",
+        "type": "panel",
+        "id": "table",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Supports many column styles",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/table/img/icn-table-panel.svg",
+                "large": "public/app/plugins/panel/table/img/icn-table-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/table/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Table (old)",
+        "type": "panel",
+        "id": "table-old",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Table Panel for Grafana",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/table-old/img/icn-table-panel.svg",
+                "large": "public/app/plugins/panel/table-old/img/icn-table-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/table-old/",
+        "category": "",
+        "state": "deprecated",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Tempo",
+        "type": "datasource",
+        "id": "tempo",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "High volume, minimal dependency trace storage.  OSS tracing solution from Grafana Labs.",
+            "links": [
+                {
+                    "name": "GitHub Project",
+                    "url": "https://github.com/grafana/tempo"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/tempo/img/tempo_logo.svg",
+                "large": "public/app/plugins/datasource/tempo/img/tempo_logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/tempo/",
+        "category": "tracing",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "TestData",
+        "type": "datasource",
+        "id": "testdata",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Generates test data in different forms",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/datasource/testdata/img/testdata.svg",
+                "large": "public/app/plugins/datasource/testdata/img/testdata.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/testdata/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Text",
+        "type": "panel",
+        "id": "text",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Supports markdown and html content",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/text/img/icn-text-panel.svg",
+                "large": "public/app/plugins/panel/text/img/icn-text-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/text/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Time series",
+        "type": "panel",
+        "id": "timeseries",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Time based line, area and bar charts",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/timeseries/img/icn-timeseries-panel.svg",
+                "large": "public/app/plugins/panel/timeseries/img/icn-timeseries-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/timeseries/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Traces",
+        "type": "panel",
+        "id": "traces",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/traces/img/traces-panel.svg",
+                "large": "public/app/plugins/panel/traces/img/traces-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/traces/",
+        "category": "",
+        "state": "beta",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Wavefront",
+        "type": "datasource",
+        "id": "grafana-wavefront-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Wavefront datasource plugin for Grafana",
+            "links": [
+                {
+                    "name": "Docs",
+                    "url": "https://grafana.com/docs/plugins/grafana-wavefront-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://grafana.com/legal/enterprise-plugins"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-wavefront-datasource/img/Wavefront.svg",
+                "large": "public/plugins/grafana-wavefront-datasource/img/Wavefront.svg"
+            },
+            "build": {
+                "time": 1648566296375,
+                "repo": "https://github.com/grafana/wavefront-datasource",
+                "branch": "main",
+                "hash": "68d339cc63368250afd596b0b29d8963eb24dba1"
+            },
+            "screenshots": [
+                {
+                    "name": "Example Kubernetes Dashboard",
+                    "path": "public/plugins/grafana-wavefront-datasource/screenshots/wf-k8s-dashboard.png"
+                },
+                {
+                    "name": "Query Editor",
+                    "path": "public/plugins/grafana-wavefront-datasource/screenshots/wf-query-editor.png"
+                },
+                {
+                    "name": "Datasource Configuration",
+                    "path": "public/plugins/grafana-wavefront-datasource/screenshots/wf-ds-config.png"
+                }
+            ],
+            "version": "1.1.1",
+            "updated": "2022-03-29"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=7.5.1",
+            "grafanaVersion": "7.5.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-wavefront-datasource/",
+        "category": "enterprise",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Welcome",
+        "type": "panel",
+        "id": "welcome",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/welcome/img/icn-dashlist-panel.svg",
+                "large": "public/app/plugins/panel/welcome/img/icn-dashlist-panel.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/welcome/",
+        "category": "",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "WindRose",
+        "type": "panel",
+        "id": "fatcloud-windrose-panel",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Cloud",
+                "url": "https://github.com/fatcloud"
+            },
+            "description": "Make windrose plots",
+            "links": [
+                {
+                    "name": "Github",
+                    "url": "https://github.com/fatcloud/windrose-panel"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/fatcloud-windrose-panel/img/windrose_logo.svg",
+                "large": "public/plugins/fatcloud-windrose-panel/img/windrose_logo.svg"
+            },
+            "build": {},
+            "screenshots": [
+                {
+                    "name": "Showcase",
+                    "path": "public/plugins/fatcloud-windrose-panel/img/twocharts.png"
+                },
+                {
+                    "name": "Options",
+                    "path": "public/plugins/fatcloud-windrose-panel/img/windroseoptions.png"
+                }
+            ],
+            "version": "0.7.1",
+            "updated": "2018-07-19"
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "4.x.x",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/fatcloud-windrose-panel/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "X-Ray",
+        "type": "datasource",
+        "id": "grafana-x-ray-datasource",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana",
+                "url": "grafana.com"
+            },
+            "description": "Data source for Amazon AWS X-Ray",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://github.com/grafana/x-ray-datasource"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/grafana/x-ray-datasource/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/grafana-x-ray-datasource/img/AWS-X-Ray.svg",
+                "large": "public/plugins/grafana-x-ray-datasource/img/AWS-X-Ray.svg"
+            },
+            "build": {
+                "time": 1683314308200,
+                "repo": "https://github.com/grafana/x-ray-datasource",
+                "branch": "main",
+                "hash": "5f3ca68eb7a0775e2d37558b8d3dd412fdca14d7"
+            },
+            "screenshots": [],
+            "version": "2.6.1",
+            "updated": "2023-05-05"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.0.0",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/grafana-x-ray-datasource/",
+        "category": "tracing",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "XY Chart",
+        "type": "panel",
+        "id": "xychart",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "",
+            "links": null,
+            "logos": {
+                "small": "public/app/plugins/panel/xychart/img/icn-xychart.svg",
+                "large": "public/app/plugins/panel/xychart/img/icn-xychart.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/xychart/",
+        "category": "",
+        "state": "beta",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Zabbix",
+        "type": "app",
+        "id": "alexanderzobnin-zabbix-app",
+        "enabled": false,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Alexander Zobnin",
+                "url": "https://github.com/alexanderzobnin"
+            },
+            "description": "Zabbix plugin for Grafana",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/alexanderzobnin/grafana-zabbix"
+                },
+                {
+                    "name": "Docs",
+                    "url": "https://alexanderzobnin.github.io/grafana-zabbix"
+                },
+                {
+                    "name": "License",
+                    "url": "https://github.com/alexanderzobnin/grafana-zabbix/blob/master/LICENSE"
+                }
+            ],
+            "logos": {
+                "small": "public/plugins/alexanderzobnin-zabbix-app/img/icn-zabbix-app.svg",
+                "large": "public/plugins/alexanderzobnin-zabbix-app/img/icn-zabbix-app.svg"
+            },
+            "build": {
+                "time": 1662024897675,
+                "branch": "master",
+                "hash": "24c47a3036d7c1b452a361085f7b91844c5378b8"
+            },
+            "screenshots": [
+                {
+                    "name": "Showcase",
+                    "path": "public/plugins/alexanderzobnin-zabbix-app/img/screenshot-showcase.png"
+                },
+                {
+                    "name": "Dashboard",
+                    "path": "public/plugins/alexanderzobnin-zabbix-app/img/screenshot-dashboard01.png"
+                },
+                {
+                    "name": "Annotations",
+                    "path": "public/plugins/alexanderzobnin-zabbix-app/img/screenshot-annotations.png"
+                },
+                {
+                    "name": "Metric Editor",
+                    "path": "public/plugins/alexanderzobnin-zabbix-app/img/screenshot-metric_editor.png"
+                },
+                {
+                    "name": "Triggers",
+                    "path": "public/plugins/alexanderzobnin-zabbix-app/img/screenshot-triggers.png"
+                }
+            ],
+            "version": "4.2.10",
+            "updated": "2022-09-01"
+        },
+        "dependencies": {
+            "grafanaDependency": ">=8.3.0",
+            "grafanaVersion": "8.3",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/alexanderzobnin-zabbix-app/",
+        "category": "",
+        "state": "",
+        "signature": "unsigned",
+        "signatureType": "",
+        "signatureOrg": ""
+    },
+    {
+        "name": "Zipkin",
+        "type": "datasource",
+        "id": "zipkin",
+        "enabled": true,
+        "pinned": false,
+        "info": {
+            "author": {
+                "name": "Grafana Labs",
+                "url": "https://grafana.com"
+            },
+            "description": "Placeholder for the distributed tracing system.",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "url": "https://zipkin.io"
+                }
+            ],
+            "logos": {
+                "small": "public/app/plugins/datasource/zipkin/img/zipkin-logo.svg",
+                "large": "public/app/plugins/datasource/zipkin/img/zipkin-logo.svg"
+            },
+            "build": {},
+            "screenshots": null,
+            "version": "",
+            "updated": ""
+        },
+        "dependencies": {
+            "grafanaDependency": "",
+            "grafanaVersion": "*",
+            "plugins": []
+        },
+        "latestVersion": "",
+        "hasUpdate": false,
+        "defaultNavUrl": "/plugins/zipkin/",
+        "category": "tracing",
+        "state": "",
+        "signature": "internal",
+        "signatureType": "",
+        "signatureOrg": ""
+    }
+]

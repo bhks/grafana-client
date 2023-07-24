@@ -45,7 +45,7 @@ class GrafanaApi:
         url_path_prefix="",
         protocol="http",
         verify=True,
-        timeout=5.0,
+        timeout=60.0,
         user_agent: str = None,
     ):
         self.client = GrafanaClient(

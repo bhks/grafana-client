@@ -42,6 +42,30 @@ def read_json_file(file_path):
     return data
 
 
+def install_plugins_from_amg_file(grafana: GrafanaApi):
+    plugin_versions = read_json_file("./amg-plugins.json")
+    for pluginV in plugin_versions:
+        logger.info("Installing plugin %s", pluginV["id"])
+        if pluginV["signature"] == "internal":
+            logger.info("Skipping Internal/Core Plugin ")
+            continue
+        try:
+            #logger.info("Plugin Install results {}", grafana.plugin.install_plugins(pluginV["name"], pluginV["version"]))
+            grafana.plugin.install_plugins(pluginV["id"], pluginV["info"]["version"])
+        except Exception as e:
+            logger.warning("Got exception from install call = {}", e)
+        time.sleep(1)
+
+def uninstall_plugins_from_amg_file(grafana: GrafanaApi):
+    plugin_versions = read_json_file("./amg-plugins.json")
+    for pluginV in plugin_versions:
+        logger.info("UnInstalling plugin %s", pluginV)
+        try:
+            grafana.plugin.uninstall_plugins(pluginV["id"])
+        except Exception as e:
+            logger.warning("Got exception from install call = {}", e)
+        time.sleep(1)
+
 def install_plugins(grafana: GrafanaApi):
     plugin_versions = read_json_file("./plugin-build-manifest.json")["plugins"]["versions"]
     for pluginV in plugin_versions:
@@ -108,11 +132,42 @@ def uninstall_from_external_plugins(grafana: GrafanaApi):
             logger.warning("Got exception from install call = {}", e)
         time.sleep(1)
 
+def write_json_to_file(json_data, output_file):
+    with open(output_file, 'w') as file:
+        json.dump(json_data, file, indent=4)
 def get_plugins_from_workspace(grafana :GrafanaApi):
     plugins = grafana.plugin.get_plugins()
+    pluginsMap = {}
     for plug in plugins:
-        logger.info(" Plugin name = %s, version = %s and signature = %s", plug["name"], plug["info"]["version"], plug["signature"])
+        key = plug["type"] + "-" + plug["signature"]
+        if key in pluginsMap.keys():
+            pluginsMap[key].append(plug["id"])
+        else:
+            pluginsMap[key] = []
+            pluginsMap[key].append(plug["id"])
+        #logger.info(" Plugin name = %s, Id= %s, version = %s and signature = %s", plug["name"], plug["id"], plug["info"]["version"], plug["signature"])
+    #logger.info("Total plugins installed = %s", len(plugins))
+    plugins = grafana.plugin.get_plugins()
     logger.info("Total plugins installed = %s", len(plugins))
+    internal = []
+    nonInternal = ""
+    for plugin in plugins:
+        if plugin["signature"] == 'internal':
+            internal.append(plugin)
+            continue
+        nonInternal = plugin
+        # if plugin["id"] not in pluginsMap.keys():
+        #     logger.info("Plugin diff = %s", plugin["id"])
+    logger.info("Internal plugins = %s", len(internal))
+    logger.info("Total non core plugins = %s", len(plugins) - len(internal))
+    for k, v in pluginsMap.items():
+        logger.info("Plugin type = %s and count = %s", k, len(v))
+    write_json_to_file(plugins, 'external-plugins-all.json')
+    #logger.info("non Internal plugin = %s", nonInternal)
+
+
+
+
 def healthcheck(grafana: GrafanaApi):
     print(grafana.plugin.health_check_plugin())
 
@@ -133,7 +188,10 @@ if __name__ == "__main__":
     #     raise NotImplementedError(f"Data source health check subsystem not ready for Grafana version {grafana_version}")
 
     #uninstall_from_external_plugins(grafana_client)
+    #uninstall_plugins(grafana_client)
     healthcheck(grafana_client)
     #time.sleep(60)
     #install_from_external_plugins(grafana_client)
+    install_plugins_from_amg_file(grafana_client)
+    time.sleep(60)
     get_plugins_from_workspace(grafana_client)
