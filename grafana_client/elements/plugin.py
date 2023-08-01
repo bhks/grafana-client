@@ -47,3 +47,11 @@ class Plugin(Base):
         except Exception as ex:
             self.logger.info("Skipped uninstalling %s and error = %s", pluginId, ex)
         return None
+    def get_plugin_metrics(self, pluginId):
+        try:
+            path = "/api/plugins/%s/metrics" % pluginId
+            r = self.client.GET(path)
+            return r
+        except Exception as ex:
+            self.logger.info("Got error in fetching metrics for plugin %s and error = %s", pluginId, ex)
+        return None
