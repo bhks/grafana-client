@@ -242,9 +242,6 @@ def healthcheck(grafana: GrafanaApi):
 
 if __name__ == "__main__":
     setup_logging(level=logging.INFO)
-    os.environ["GRAFANA_URL"] = "https://g-a8edececdc.grafana-workspace-alpha.us-west-2.amazonaws.com"
-    os.environ["GRAFANA_TOKEN"] = "eyJrIjoiVWRwY0JWOHRaUDFSUWk1emJZMGRybFcyUXU2bnl4VlQiLCJuIjoidGVzdC1wbHVnaW4tc2JoYWd3YXQiLCJpZCI6MX0="
-
     # Connect to Grafana instance and run health check.
     grafana_client = GrafanaApi.from_env()
 
